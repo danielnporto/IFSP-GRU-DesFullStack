@@ -11,7 +11,7 @@
 
         <?php for($i = 0; $i < count($itens_de_menu); $i++): ?>
         <li class="nav-item d-none text-light d-sm-inline-block">
-            <a href="<?= $i === 0 ? 'index.php' : ($i === 1 ? 'pages/page2.php' : 'pages/page3.php') ?>"
+            <a href="<?= $i === 0 ? '../index.php' : ($i === 1 ? 'page2.php' : 'page3.php') ?>"
                 class="nav-link text-light"><?= $itens_de_menu[$i] ?></a>
         </li>
         <?php endfor; ?>
